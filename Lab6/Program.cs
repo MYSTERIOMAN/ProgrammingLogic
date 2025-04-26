@@ -29,8 +29,8 @@ class Car
   public string GetDescription(){
     return $"{year} {color} {model}";
   }
-  public void Repaint(string newc){
-    color = newc;
+  public void Repaint(string newColor){
+    color = newColor;
     Console.WriteLine($"The car has been repainted to {color}.");
   }
 }
